@@ -1,16 +1,24 @@
-# React + Vite
+# BOLD SHOW — Cyberpunk Sneaker Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack inspired cyberpunk sneaker e-commerce site built with React 19, Three.js, and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
+- 3D rotating sneaker with scroll animation (Three.js)
+- Multi-page e-commerce flow (Shop, Product Detail, Cart, Checkout)
+- Global cart state with React Context
+- Glassmorphism UI with cyberpunk design system
+- Category filters, size selector, order success flow
+- Fully responsive
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React 19
+- Tailwind CSS
+- Three.js (vanilla, no react-three-fiber)
+- React Router v6
+- Vite
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run Locally
+git clone https://github.com/mmaaz382830-lab/BOLD-SHOW-.git
+cd BOLD-SHOW-
+npm install
+npm run dev
